@@ -1,0 +1,88 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 13rem;
+  margin: 2rem auto;
+}
+
+.card {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 2rem;
+  text-align: left;
+  height: 13rem;
+
+  p {
+    font-size: 11px;
+  }
+
+  .btn {
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 14px;
+    border: 0;
+    font-size: 10px;
+  }
+}
+
+.card_one {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+  .btn {
+    color: hsl(31, 77%, 52%);
+  }
+}
+
+.card_two {
+  background-color: hsl(184, 100%, 22%);
+
+  .btn {
+    color: hsl(184, 100%, 22%);
+  }
+}
+
+.card_three {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+
+  .btn {
+    color: hsl(179, 100%, 13%);
+  }
+}
+
+@media (min-width: 758px) {
+  .main {
+    width: 39rem;
+    margin: 7rem auto;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .card {
+    height: 13rem;
+  }
+
+  .card_one {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 0;
+  }
+
+  .card_three {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+  }
+}
